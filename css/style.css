@@ -255,6 +255,8 @@ body.shop #shopHeader nav{
     font-weight: bold;
     font-family: 'Letter Gothic Std';
     margin: 10px 0;
+    background-color:#000:
+    color:#fff;
 }
 body.shop #shopHeader nav ul{
     text-align: center;
