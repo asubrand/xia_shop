@@ -251,6 +251,10 @@ body.shop #shopHeader h1 img{
     width:100%;
     padding: 10px 0;
 }
+body.shop #shopNavBar{
+    color:#fff;
+    background-color: #000;
+}
 body.shop #shopHeader nav{
     border-bottom: 1px dotted #000;
     border-top: 1px dotted #000;
@@ -258,8 +262,7 @@ body.shop #shopHeader nav{
     font-weight: bold;
     font-family: 'Letter Gothic Std';
     margin: 10px 0;
-    background-color:#000:
-    color:#fff;
+    clear: both;
 }
 body.shop #shopHeader nav ul{
     text-align: center;
