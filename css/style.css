@@ -557,7 +557,7 @@ body.shop #shopNavBar{
     background-color: #000;
     clear:both;
 }
-body.shop #shopHeader nav{
+body.shop #shopNavBar nav{
     border-bottom: 1px dotted #000;
     border-top: 1px dotted #000;
     font-size: 12px;
@@ -566,11 +566,11 @@ body.shop #shopHeader nav{
     margin: 10px 0;
     clear: both;
 }
-body.shop #shopHeader nav ul{
+body.shop #shopNavBar nav ul{
     text-align: center;
 
 }
-body.shop #shopHeader nav ul li{
+body.shop #shopNavBar nav ul li{
     display: inline-block;
 			 *display: inline;
 			 *zoom: 1;
@@ -579,12 +579,12 @@ body.shop #shopHeader nav ul li{
     height: 40px;
 }
 
-body.shop #shopHeader nav ul li:hover {
+body.shop #shopNavBar nav ul li:hover {
     border-bottom: solid 2px #000000;
     height: 38px;
 }
 
-body.shop #shopHeader nav ul li a{
+body.shop #shopNavBar nav ul li a{
     display: block;
     padding: 15px;
     color: #fff;
