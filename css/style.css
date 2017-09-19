@@ -99,7 +99,7 @@ abbr, acronym {
     padding: 14px 0;
     font-size: 12px;
     font-weight: normal;
-    font-family: '蟆丞｡壹ざ繧ｷ繝�け Pr6N', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     text-decoration: none;
     text-align: center;
     -webkit-transition-duration: 0.2s;
@@ -169,14 +169,14 @@ abbr, acronym {
 }
 
 /*====================================================================
- common: shop繝壹�繧ｸ
+ common: shop
  selector: body.shop
 ====================================================================*/
 body.shop {
     color: #000;
     font-family: franklin-gothic-comp-urw-1,franklin-gothic-comp-urw-2,"Arial Narrow",sans-serif;
-    /*font-family: "Hiragino Kaku Gothic ProN","繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", sans-serif;*/
-    font-family: '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', sans-serif;
+    /*font-family: "Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3", sans-serif;*/
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     font-size: 13px;
     line-height: 1.5;
     word-break: break-all;
@@ -303,7 +303,7 @@ body.shop #mainFooter .footerMenu ul{
 body.shop #mainFooter .footerMenu li{
     height: 26px;
     font-size: 12px;
-    font-family: '蟆丞｡壹ざ繧ｷ繝�け Pr6N', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     font-weight: normal;
     line-height: 26px;
     color: #808080;
@@ -340,14 +340,14 @@ body.shop #mainFooter .footerMenu li img{
 /**
  * page:
  * selector: #shopTopPage
- * about: 繧ｷ繝ｧ繝��繝医ャ繝励�繝ｼ繧ｸ
+
  *************************************/
 
 /* item */
 body#shopTopPage .item{
     padding: 30px 0;
     text-align: center;
-    font-family: '繝偵Λ繧ｮ繝手ｧ偵ざ Pro', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
 }
 body#shopTopPage .item .itemTitle{
     margin: 20px 0 5px;
@@ -439,7 +439,7 @@ body#shopTopPage .item .itemDescription{
 /**
  * page:
  * selector: #shopDetailPage
- * about: 繧ｷ繝ｧ繝��蝠�刀隧ｳ邏ｰ繝壹�繧ｸ
+
  *************************************/
 body#shopDetailPage #mainContent{
     background-color: #FFF;
@@ -512,7 +512,7 @@ body#shopDetailPage #mainContent .purchase{
     margin: 0 0 0 520px;
     /*padding: 20px;*/
     width: 280px;
-    font-family: '繝偵Λ繧ｮ繝手ｧ偵ざ Pro', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     border-top: dotted 1px #000000;
     border-bottom: dotted 1px #000000;
 }
@@ -572,7 +572,7 @@ body#shopDetailPage .itemPrice{
 body#shopDetailPage .itemPrice h2{
     color: #262626;
     font-size: 24px;
-    font-family: '繝偵Λ繧ｮ繝手ｧ偵ざ Pro', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
     margin: 30px 0;
@@ -736,7 +736,7 @@ body.shop #mainFooter .footerMenu li .fb-like {
 
 .main #about p {
     font-size: 14px;
-    font-family: '繝偵Λ繧ｮ繝手ｧ偵ざ Pro', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     line-height: 1.6em;
 }
 
@@ -771,7 +771,7 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 }
 
 /*====================================================================
- Inquiry: 縺雁撫縺�粋繧上○
+ Inquiry: 
 ====================================================================*/
 
 .inquirySection {
@@ -789,7 +789,7 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 }
 .inquirySection p  {
     font-size: 13px;
-    font-family: '蟆丞｡壹ざ繧ｷ繝�け Pr6N', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     line-height: 13px;
     color: #000000;
     text-align: left;
@@ -1004,21 +1004,21 @@ body.template #category-menu:hover .category-list ul li:hover {
 body.template #category-menu:hover .category-list ul li a {
     margin: 0;
     padding: 10px 20px;
-    font-family: '蟆丞｡壹ざ繧ｷ繝�け Pr6N', sans-serif;
+    font-family: 'ヒラギノ角ゴ ProN W3', sans-serif;
     display: block;
     max-width: 250px;
-    /* 笆ｼ1陦悟宛髯 */
+
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    /* 笆ｲ1陦悟宛髯 */
+
 }
 body.template #category-menu:hover .category-list ul li a:hover {
     text-decoration: none;
 }
 
 
-/* 荳ｭ繧ｫ繝�ざ繝ｪ繧定｡ｨ遉ｺ */
+
 .template #category-menu .appsItemCategoryTag_child .appsItemCategoryTag_lowerchild {
     display: none;
     position: absolute;
