@@ -295,6 +295,12 @@ Plug in
 .slick-slide img.display_mob{
 	display: none;
 }
+
+.simply-scroll-container { position:relative; }
+.simply-scroll-clip { position:relative; overflow:hidden; }
+.simply-scroll-list { margin:0; padding:0; overflow:hidden; }
+.simply-scroll-list li { float:left; width:150px; height:150px; margin:0; padding:0; list-style:none; }
+
 /*====================================================================
  common
 ====================================================================*/
