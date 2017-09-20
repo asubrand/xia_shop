@@ -133,7 +133,7 @@ Plug in
   line-height: 0px;
   font-size: 0px;
   cursor: pointer;
-  background-color: #e67117;
+  background-color: #transparent;
   color: transparent;
   top: 0;
   bottom: 0;
@@ -473,6 +473,14 @@ abbr, acronym {
  common: shop
  selector: body.shop
 ====================================================================*/
+
+h1.headingDefault{
+font-size:14px;
+color:#000;
+font-family: 'Noto Sans', sans-serif, "Hiragino Kaku Gothic ProN";
+border-bottom:2px dotted #000;	
+}
+
 body.shop {
     color: #000;
     font-family: franklin-gothic-comp-urw-1,franklin-gothic-comp-urw-2,"Arial Narrow",sans-serif;
@@ -507,6 +515,7 @@ body.shop section.part2{
 /* 4parts */
 body.shop .part4{
     margin: 0 auto;
+    padding:30px 0;
     overflow: hidden;
     width: 960px;
 }
@@ -560,7 +569,8 @@ ul.headerShopInfo li{
    float:left;}
 
 ul.headerShopInfo li img{
-    height:80px;
+    height:50px;
+    margin:30px 5px 0;
     width:auto;
 }
 body.shop #shopNavBar{
@@ -601,6 +611,7 @@ body.shop #shopNavBar nav ul li a{
     color: #fff;
    font-weight: 700;
    font-size: 16px;
+   font-family: 'Noto Sans', sans-serif;
 }
 
 /* footer */
@@ -1251,7 +1262,8 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 ====================================================================*/
 
 /**
- * apps: category
+ * apps: 
+
  *************************************/
 .template #category-menu{
     display: block;
@@ -1269,7 +1281,7 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
     z-index: 9999;
 }
 .template #category-menu .category-list ul {
-    background-color: #FFF;
+    background-color: #000;
     border: 1px solid #CCC;
     box-shadow: 0px 1px 3px rgb(100, 100, 100);
     padding: 10px;
@@ -1291,7 +1303,7 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 }
 .template #category-menu .category-list ul li a{
     display: inline;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: normal;
     letter-spacing: 1px;
     line-height: 18px;
@@ -1303,7 +1315,9 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 }
 
 body.template #category-menu span{
-    /*font-weight: bold;*/
+    font-weight: 700;
+   font-size: 16px;
+   font-family: 'Noto Sans', sans-serif;
     display: block;
     padding: 15px;
     text-transform: uppercase;
@@ -1313,6 +1327,8 @@ body.template #category-menu span{
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
+
+
 /*body.template #category-menu span:hover {
     color: #ed4242;
 }*/
