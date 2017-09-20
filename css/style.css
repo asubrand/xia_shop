@@ -478,7 +478,15 @@ h1.headingDefault{
 font-size:14px;
 color:#000;
 font-family: 'Noto Sans', sans-serif, "Hiragino Kaku Gothic ProN";
-border-bottom:2px dotted #000;	
+border-bottom:2px solid #000;
+position:relative;
+}
+h1.headingDefault:after{
+position:absolute;
+content:"";
+width:960px;
+border-bottom:2px dotted #000;
+padding:0 0 5px;
 }
 
 body.shop {
@@ -610,7 +618,7 @@ body.shop #shopNavBar nav ul li a{
     padding: 15px;
     color: #fff;
    font-weight: 700;
-   font-size: 16px;
+   font-size: 14px;
    font-family: 'Noto Sans', sans-serif;
 }
 
@@ -628,7 +636,7 @@ body.shop #mainFooter p.footerCopy{
     font-size: 11px;
     font-weight:normal;
     color:#fff;
-    margin:0 0 20px;
+    padding:0 0 20px;
 }
 
 body.shop #mainFooter ul {
@@ -1316,7 +1324,7 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 
 body.template #category-menu span{
     font-weight: 700;
-   font-size: 16px;
+   font-size: 14px;
    font-family: 'Noto Sans', sans-serif;
     display: block;
     padding: 15px;
