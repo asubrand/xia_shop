@@ -541,7 +541,7 @@ body.shop #shopHeader h1{
     letter-spacing: 2px;
     margin: 10px 0;
     text-align: center;
-   width:150px;
+   width:300px;
 	float:left;
 }
 body.shop #shopHeader h1 a{
@@ -551,6 +551,17 @@ body.shop #shopHeader h1 img{
     max-width: 300px;
     width:100%;
     padding: 10px 0;
+}
+ul.headerShopInfo{
+   float:right;}
+
+ul.headerShopInfo li{
+   display:block;
+   float:left;}
+
+ul.headerShopInfo li img{
+    height:80px;
+    width:auto;
 }
 body.shop #shopNavBar{
     color:#fff;
@@ -596,7 +607,7 @@ body.shop #shopNavBar nav ul li a{
 body.shop #mainFooter{
     font-size: 11px;
     font-weight: bold;
-    margin: 60px auto 20px;
+    margin: 60px auto 0;
     background-color:#000;
     color:#fff;
 }
@@ -604,7 +615,9 @@ body.shop #mainFooter p.footerCopy{
     clear:both;
     text-align:center;
     font-size: 11px;
+    font-weight:normal;
     color:#fff;
+    margin:0 0 20px;
 }
 
 body.shop #mainFooter ul {
@@ -615,7 +628,7 @@ body.shop #mainFooter ul li {
     float: left;
 }
 body.shop #mainFooter .footerMenu{
-    width: 100%;
+
 }
 body.shop #mainFooter .footerMenu ul{
 
