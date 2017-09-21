@@ -479,6 +479,7 @@ color:#000;
 font-family: 'Noto Sans', sans-serif, "Hiragino Kaku Gothic ProN";
 border-bottom:2px solid #000;
 position:relative;
+	margin-bottom:30px;
 }
 h1.headingDefault:after{
 position:absolute;
@@ -491,12 +492,16 @@ border-bottom:2px dotted #000;
 
 .frontTopicLists li{
 display:block;
-	width:480px;
+	width:460px;
 	float:left;
 	margin-bottom:40px;
 }
+.frontTopicLists li img{
+	width:100%;
+	height:auto;
+}
 .frontTopicLists li.birkin{
-	margin-right:20px;
+	margin-right:40px;
 }
 
 body.shop {
