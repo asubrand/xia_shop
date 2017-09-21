@@ -503,6 +503,10 @@ display:block;
 .frontTopicLists li.birkin{
 	margin-right:40px;
 }
+.instaList img{
+width:90%;
+display:block;
+margin:0 auto;}
 
 body.shop {
     color: #000;
