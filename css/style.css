@@ -300,12 +300,12 @@ Plug in
 .simply-scroll-list { margin:0; padding:0; overflow:hidden; }
 .simply-scroll-list li { float:left; width:150px; height:150px; margin:0; padding:0; list-style:none; position:relative;}
 .simply-scroll-list li img{ width:90%; }
-.simply-scroll-list li .insragramCaption{
+.simply-scroll-list li .instagramCaption{
 	font-size:		130%;
 	text-align: 		center;
 	color:			#fff;
 }
-.simply-scroll-list li .insragramMask{
+.simply-scroll-list li .instagramMask{
 	width:			100%;
 	height:			100%;
 	position:		absolute;
@@ -316,7 +316,7 @@ Plug in
 	-webkit-transition:	all 0.6s ease;
 	transition:		all 0.6s ease;
 }
-.simply-scroll-list li:hover .insragramMask{
+.simply-scroll-list li:hover .instagramMask{
 	opacity:		1;	/* マスクを表示する */
 	padding-top:		80px;	/* ホバーで下にずらす */
 }
