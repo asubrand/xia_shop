@@ -1110,7 +1110,7 @@ body.shop #mainFooter .footerMenu li .fb-like {
 }
 
 .main #about {
-    width: 820px;
+    width: 960px;
     margin: 0 auto;
     padding: 85px 0;
     color: #535353;
@@ -1149,6 +1149,39 @@ body.shop #mainFooter .footerMenu li .fb-like {
     margin-right: 15px;
 }
 .main #about .social ul li:last-child {
+    margin-right: 0;
+}
+.aboutFrame{
+margin-bottom:50px;}
+
+.shop_information__difinition {
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 1.4;
+}
+.shop_information__source {
+    padding-left: 4px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.shop_information__data {
+    margin-top: calc((1.4em + 34px) * -1);
+    padding: 17px 3em 17px 12em;
+    border-top: 1px solid #fff;
+}
+.lp__route_lists {
+    margin-bottom: 20px;
+}
+.lp__route_list {
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+.lp_route__image {
+    border: 2px solid #fff;
+}
+.lp__route_list:nth-child(3n) {
     margin-right: 0;
 }
 
@@ -1436,10 +1469,13 @@ body.template #category-menu:hover .category-list ul li a:hover {
 /* .categoryTitle01
 -------------------------------------------------------------- */
 .categoryTitle01 {
-	margin: 38px 0 0 0;
-	font-size:20px;
+	margin: 0;
+	padding:16px;
+	font-size:15px;
 	line-height: 1.1;
 	font-weight: bold;
+	color:#000;
+	background-color: #e4caa1;
 	text-align: center;
 }
 
