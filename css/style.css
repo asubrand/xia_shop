@@ -1180,6 +1180,8 @@ margin-bottom:50px;}
 }
 .lp_route__image {
     border: 2px solid #fff;
+    width: 100%;
+    height: auto;
 }
 .lp__route_list:nth-child(3n) {
     margin-right: 0;
