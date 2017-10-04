@@ -700,18 +700,38 @@ body.shop #shopHeader h1 img{
     width:100%;
     padding: 10px 0;
 }
+
 ul.headerShopInfo{
    float:right;}
 
 ul.headerShopInfo li{
    display:block;
-   float:left;}
+   float:left;
+width: 200px;
+    margin: 30px 20px 0 0;}
 
 ul.headerShopInfo li img{
     height:50px;
-    margin:30px 5px 0;
+    margin:0 10px 0 0;
     width:auto;
 }
+#shopHeader .headerShopInfo li.header_insta img{
+	float:left;
+}
+#shopHeader .headerShopInfo li.header_insta a{
+	font-family: "Noto Sans", serif;
+	color:#666666;
+	position:relative;
+}
+#shopHeader .headerShopInfo li.header_insta a:after{
+	position:absolute;
+	content:">>";
+	font-size:20px;
+	top:0;
+	left:0;
+	color:#e4caa1;
+}
+
 body.shop #shopNavBar{
     color:#fff;
     background-color: #000;
@@ -792,7 +812,7 @@ body.shop #mainFooter .footerMenu li{
     line-height: 26px;
     color: #808080;
     float: left;
-    margin: 0 30px 10px 0;
+    margin: 10px 30px 30px 0;
     vertical-align: middle;
 }
 body.shop #mainFooter .footerMenu .sns {
@@ -810,7 +830,8 @@ body.shop #mainFooter .footerMenu li a {
    color: #808080;
 }
 body.shop #mainFooter .footerMenu li a:hover{
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid #bbb;
+    font-size:13px;
 }
 body.shop #mainFooter .footerMenu li img{
     display: block;
