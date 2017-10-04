@@ -521,7 +521,7 @@ display:block;
     margin-bottom: 40px;
     border: 3px solid #666666;
     margin: 5px;
-    font-size: 17px;
+    font-size: 15px;
 position:relative;
 	    box-sizing: border-box;
 	    line-height: 16px;
@@ -538,8 +538,9 @@ position:relative;
 }
 
 .frontTopicLists li span.topic_nav_en{
-	font-size:11px;
-	font-family: 'Noto Sans', sans-serif;
+font-size: 10px;
+    font-family: 'Noto Sans', serif;
+    margin-left: 5px;
 }
 .frontTopicLists li img{
 	width:100%;
@@ -584,6 +585,9 @@ position:relative;
     top: 0;
     z-index: -1;
 }
+.frontTopicLists li.other a{
+  padding:15px 5px;}
+
 .frontTopicLists li.other:after{
     position: absolute;
     content: "";
@@ -592,9 +596,9 @@ position:relative;
     background-size: contain;
     background-position: center;
     width: 80px;
-    height: 60px;
+    height: 70px;
     right: -8px;
-    top: 0;
+    top: -10px;
     z-index: -1;
 }
 .frontTopicLists li.accessory:after{
