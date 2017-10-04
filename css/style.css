@@ -730,7 +730,7 @@ ul.headerShopInfo li img{
 	position:absolute;
 	content:">>";
 	font-size:20px;
-	top: 16px;
+	top: 6px;
     right: -30px;
     color: #e4caa1;
     transform: scale( 1 , 2.1 );
