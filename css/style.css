@@ -720,16 +720,20 @@ ul.headerShopInfo li img{
 }
 #shopHeader .headerShopInfo li.header_insta a{
 	font-family: "Noto Sans", serif;
-	color:#666666;
-	position:relative;
+    color: #000;
+    line-height: 18px;
+    position: relative;
+    font-size: 16px;
+    vertical-align: bottom;
 }
 #shopHeader .headerShopInfo li.header_insta a:after{
 	position:absolute;
 	content:">>";
 	font-size:20px;
-	top:0;
-	left:0;
-	color:#e4caa1;
+	top: 16px;
+    right: -30px;
+    color: #e4caa1;
+    transform: scale( 1 , 2.1 );
 }
 
 body.shop #shopNavBar{
