@@ -514,6 +514,9 @@ border-bottom:2px dotted #000;
     top: 25px;
 }
 
+#frontTopic{
+margin-bottom:60px;}
+
 .frontTopicLists li{
 display:block;
     width: 182px;
