@@ -1557,7 +1557,7 @@ body.shop #mainFooter .footerMenu ul .social_btn li.twitter {
 }
 .template #category-menu:hover .category-list{
     display: block;
-    padding: 20px 0 0;
+    padding: 0 0 0;
     position: absolute;
     z-index: 9999;
 }
@@ -1600,7 +1600,7 @@ body.template #category-menu span{
    font-size: 14px;
    font-family: 'Noto Sans', sans-serif;
     display: block;
-    padding: 0 15px;
+    padding: 5px 15px;
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
     -webkit-transition-duration: 0.3s;
