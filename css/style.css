@@ -1600,7 +1600,7 @@ body.template #category-menu span{
    font-size: 14px;
    font-family: 'Noto Sans', sans-serif;
     display: block;
-    padding: 15px;
+    padding: 0 15px;
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
     -webkit-transition-duration: 0.3s;
