@@ -679,18 +679,30 @@ body.shop footer.part4{
     position: fixed;
     left: 10px;
     top: 0;
-       background-color: rgba(25, 25, 33, 0.9);
+       background-color: rgba(25, 25, 33, 0.1);
 	height:100vh;
-    line-height: 2;
+
     color: #fff;
     font-size: 12px;
-    padding: 20px;
+	width:130px;
+    padding: 20px 0;
     z-index: 9999;
 }
 #sideHeader nav a,#sideHeader nav a:link,#sideHeader nav a:visited{
-color:#fff;font-size:13px;text-decoration:none;}
-ul.sideNavBrands {
-	background-color: #7b6f65;}
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-decoration: none;    width: 100%;
+    height: 20px;
+	padding:5px 0;
+	display: block;}
+
+#sideHeader nav li:hover{background-color:#fff;color:"000;}
+#sideHeader nav ul.sideNavBrands li a{
+	width:95%;
+	padding:0 0 0 5%;
+	}
 
 /* header */
 body.shop #mainHeader{
