@@ -711,10 +711,48 @@ body.shop footer.part4{
 #sideHeader nav li.sideNavLink > a:hover{
 	color:#000;}
 
-#sideHeader nav ul.sideNavBrands li a{
-	width:95%;
-	padding:0 0 0 5%;
+#sideHeader h1.sideNavHeading a{
+	color: #efe4d2;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-decoration: none;
+    height: 20px;
+ width: calc(100% - 16px);
+    padding: 5px 8px;
+	display: block;
 	}
+#sideHeader h1.sideNavHeading:hover{
+	background-color:#fff;}
+
+#sideHeader h1.sideNavHeading > a:hover{
+	color:#000;}
+
+#sideHeader nav ul.sideNavBrands li:hover{
+	background-color:#fff;}
+
+#sideHeader nav ul.sideNavBrands li > a:hover{
+	color:#000;}
+
+#sideHeader nav ul.sideNavBrands li a{
+	color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-decoration: none;
+    height: 20px;
+ width: calc(100% - 20px);
+    padding: 5px 10px;
+	display: block;
+	}
+
+div#brand-menu{
+	background-color: #4a4747;}
+span.mainHeaderNavColor {
+    color: #ddd;
+    line-height: 3;
+	margin-left: 5px;}
+
 header#mainHeader{
 	background-color:#fff;
 }
