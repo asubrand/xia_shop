@@ -701,7 +701,7 @@ body.shop footer.part4{
 	padding:5px 0;
 	display: block;}
 
-#sideHeader nav li:hover{background-color:#fff;color:"000;}
+#sideHeader nav li:hover{background-color:#fff;color:000;}
 #sideHeader nav ul.sideNavBrands li a{
 	width:95%;
 	padding:0 0 0 5%;
